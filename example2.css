@@ -1,28 +1,48 @@
 ul{
-    background-color: black;
-    margin-left:auto;
-    margin-right: auto;
+    width: 100%;
+    margin:0;
     padding:0;
-    overflow:hidden;
-    width: 50%;
+    list-style-type: none;
 }
 
-li{
-    float:left;
-    
-
-}
-
-li a{
+li a {
     text-decoration: none;
     display:inline-block;
     color: white;
-    padding:10px 35px;
-
+    width:100%;
+    padding:10px 0px;
+    background-color:  rgb(31, 30, 30);
+    margin-bottom:2%;
 }
-
-.class1{
+/*border style*/
+.underline {
     border-bottom: 3px solid red;
-    
-    
 }
+
+span {
+    padding:8px;
+}
+
+@media only screen and (min-width:600px){
+    .container {
+        width:80%;
+        background-color: rgb(31, 30, 30);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    li a {
+        float:left;
+        width:25%;
+        text-align: center;
+        background-color: none;
+        margin-bottom:none;
+   }
+}
+
+
+
+
+   
+    
+
